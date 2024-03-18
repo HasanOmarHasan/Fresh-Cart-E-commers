@@ -1,0 +1,34 @@
+/* 878787 */
+
+.pageHeader {
+  height: 200px;
+  background-color: #878787;
+  color: #fff;
+}
+/* action in img hover scal */
+/* action in card hover show add to card and wishlist  */
+/* action in click  wishlist  */
+/* <i class="fa-solid fa-heart"></i> to be red  */
+
+.wishlist {
+  background-color: #ffffff00;
+  top: 10%;
+  right: 0;
+}
+.cart {
+  background-color: #fff;
+}
+
+/* هعملها بعدين */
+
+/* .contentLayer {
+  transition: transform 0.3s ease;
+  display: none;
+  transform: translateY(-400px);
+}
+.product:hover.contentLayer {
+  transform: translateY(0);
+  display: block;
+  overflow: hidden;
+} */
+

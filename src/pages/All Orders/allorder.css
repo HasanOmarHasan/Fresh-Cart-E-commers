@@ -1,0 +1,106 @@
+.order .progressbar-track {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.order .progressbar-track .progressbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0rem;
+}
+
+.order .progressbar-track .progressbar li {
+  font-size: 1.5rem;
+  border: 1px solid #333;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #dddddd;
+  z-index: 100;
+  position: relative;
+}
+
+.order .progressbar-track .progressbar li.green {
+  border: 1px solid #007965;
+  background-color: #d5e6e2;
+}
+
+.order .progressbar-track .progressbar li::after {
+  position: absolute;
+  font-size: 0.9rem;
+  top: 50px;
+  left: 0px;
+}
+
+#tracker {
+  position: absolute;
+  border-top: 1px solid #bbb;
+  width: 100%;
+  top: 25px;
+}
+
+#step-1::after {
+  content: "Placed";
+}
+
+#step-2::after {
+  content: "Accepted";
+  left: -10px;
+}
+
+#step-3::after {
+  content: "Packed";
+}
+
+#step-4::after {
+  content: "Shipped";
+}
+
+#step-5::after {
+  content: "Delivered";
+  left: -10px;
+}
+
+.green {
+  color: #007965 !important;
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+  .order .progressbar-track .progressbar li {
+    font-size: 1rem;
+  }
+
+  .order .progressbar-track .progressbar li::after {
+    font-size: 0.8rem;
+    top: 35px;
+  }
+
+  #tracker {
+    top: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  #step-4::after {
+    left: -5px;
+  }
+}
+
+@media (max-width: 395px) {
+  .order .progressbar-track .progressbar li {
+    font-size: 0.8rem;
+  }
+
+  .order .progressbar-track .progressbar li::after {
+    font-size: 0.7rem;
+    top: 35px;
+  }
+
+  #tracker {
+    top: 15px;
+  }
+}
