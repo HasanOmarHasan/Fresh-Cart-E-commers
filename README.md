@@ -23,8 +23,8 @@ Fresh-Cart is a frontend e-commerce project that simulates a basic shopping expe
 * **Yup** – for form validation
 * **react-icons** – for UI icons
 * **react-toastify** – for toast notifications
-* ** Bootstrap ** (v5+) for styling
-* ** slick ** for silder
+* **Bootstrap** (v5+) for styling
+* **slick** for silder
 
 
 ---
@@ -65,7 +65,8 @@ Fresh-Cart is a frontend e-commerce project that simulates a basic shopping expe
 * **Authentication**: Login and registration pages using JWT.
 * **Product Listing**: View products with details.
 * **Shopping Cart**: Add, update, and remove products.
-* **Checkout**: Submit order with address form.
+* **Checkout**: Submit order with address form .
+* **Order history tracking** track all order .
 * **Toast Notifications**: Feedback on actions (e.g., add to cart, login).
 * **Context API**: User state and authentication handling.
 * **Routing**: Protected and public routes using `react-router-dom`.
@@ -86,6 +87,6 @@ Fresh-Cart is a frontend e-commerce project that simulates a basic shopping expe
 
 * this is final project in route cource 
 
----
+
 
 
