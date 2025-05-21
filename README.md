@@ -86,6 +86,16 @@ Fresh-Cart is a frontend e-commerce project that simulates a basic shopping expe
 
 * this is final project in route cource 
 
+---
+## Screen 
+![Home page](screens/homepage.png)
+![login page](screens/login.png)
+![register page](screens/register.png)
+![productdetails page](screens/productdetails.png)
+![cart page](screens/cart.png)
+![payment page](screens/payment.png)
+![404 page](screens/404.png)
+
 
 
 
