@@ -2,10 +2,8 @@
 
 # 🛒 Fresh-Cart-E-commers
 
-**Live Preview:** [https://freash-cart.netlify.app](https://freash-cart.netlify.app)
-**GitHub Repo:** [HasanOmarHasan/Fresh-Cart-E-commers](https://github.com/HasanOmarHasan/Fresh-Cart-E-commers)
 
----
+
 
 ## 📖 Project Overview
 
